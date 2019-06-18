@@ -1,0 +1,62 @@
+* {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+	background-color: white;
+	 !important
+}
+
+/*VARIABLES*/
+
+:root {
+	--main-bg-width: 100%;
+	--margin-bg-div: auto;
+	--margin-bg-color: #99791d;
+	--font-bg-tamano: 2.3vh;
+	--font-secondary-tamano: 3.3vh;
+	--color-secondary: white;
+	--color-third: #b92a58;
+
+}
+
+
+div,
+section {
+	width: var(--main-bg-width);
+	margin: var(--margin-bg-div);
+	font-size: var(--font-bg-tamano);
+
+}
+
+
+.btn_convocatoria {
+
+	border-radius: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+/*COLORES BACKGROUNDS*/
+
+
+
+.participar {
+
+	background-color: var(--color-secondary);
+	padding: 20vh;
+}
+
+
+.convocatoria {
+	background-color: var(--color-third);
+	padding: 20vh;
+	font-size: var(--font-secondary-tamano);
+
+}
+
+.info {
+	padding: 10vh;
+	background-color: var(--margin-bg-color)
+}
